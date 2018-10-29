@@ -8,3 +8,4 @@ Two levels: <br>
 2- Hard: Guess the colour given out of 6 colours. <br>
  
 Have fun!
+![colour](colour.PNG)

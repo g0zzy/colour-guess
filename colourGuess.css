@@ -1,0 +1,70 @@
+body{
+	background-color: rgb(64, 72, 81);
+	margin: 0; 
+	font-family: 'Mukta', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 3%;
+	padding-top: 2%;
+	margin: 0;
+}
+
+button{
+	height: 100%; 
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: 0; 
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	font-family: 'Mukta', sans-serif;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+	cursor: pointer;
+	background: gray;
+}
+
+.square{
+	width: 30%; 
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10px;
+	cursor: pointer;	
+	transition: background 0.2s;
+	-webkit-transition: background 0.2s;
+	-moz-transition: background 0.2s;
+}
+
+.selected{
+	background: gray;
+}
+
+#container{
+	margin: 10px auto;
+	max-width: 600px;
+}
+
+#stripe{
+	margin: 0 auto;
+	background: white;
+	height: 30px; 
+	text-align: center;
+}
+
+#colourToGuess{
+	font-size: 180%;
+}
+
+#outcome{
+	display: inline-block;
+	width: 30%;
+}
